@@ -25,5 +25,5 @@ npm test
 ### Running
 
 ```
-node src/app.js
+npm start
 ```
