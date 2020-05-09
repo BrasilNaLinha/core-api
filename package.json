@@ -4,7 +4,8 @@
   "description": "Brasil na Linha Core Api",
   "main": "src/app.js",
   "scripts": {
-    "test": "mocha 'src/test/**/*.js'"
+    "start": "tsc && node dist/app.js",
+    "test": "nodemon --watch . --ext ts --exec \"mocha -r ts-node/register test/**/*.test.ts\""
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,22 @@
   },
   "homepage": "https://github.com/BrasilNaLinha/core-api#readme",
   "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/express": "^4.17.6",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.13.5",
+    "@types/supertest": "^2.0.9",
     "chai": "^4.2.0",
-    "express": "^4.17.1",
-    "mocha": "^7.1.2"
+    "cross-env": "^5.2.0",
+    "mocha": "^6.2.3",
+    "nodemon": "^2.0.3",
+    "nyc": "^14.1.1",
+    "supertest": "^4.0.2",
+    "ts-node": "^8.10.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.8.3"
   }
 }
