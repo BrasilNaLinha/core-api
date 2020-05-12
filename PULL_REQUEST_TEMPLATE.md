@@ -1,3 +1,5 @@
+# <Feature Title>
+
 ## Goal
 
 <!-- What is the intent of this change?-->
@@ -12,7 +14,10 @@
 
 ## Tests
 
-<!-- How was this change tested? What manual and automated tests were run/added? -->
+<!--
+  Unit Tests completed? (Y/N)
+  How was this change tested? What manual and automated tests were run/added?
+-->
 
 ## Discussion
 
@@ -24,8 +29,8 @@
 
 ## Review
 
-<!-- When submitting for review, consider the points for self-review and the
-     criteria which will be used for secondary review -->
+<!--
+When submitting for review, consider the points for self-review and the criteria which will be used for secondary review
 
 For the submitter, initial self-review:
 
@@ -36,5 +41,6 @@ For the pull request reviewer(s), this changeset has been reviewed for:
 
 - [ ] Consistency between the changeset and the goal stated above
 - [ ] Usage friction - is the proposed change in usage cumbersome or complicated?
-- [ ] Complexity - is the proposed change introducing any unjustified complexity? 
+- [ ] Complexity - is the proposed change introducing any unjustified complexity?
 - [ ] Thoroughness of added tests and any missing edge cases
+-->
