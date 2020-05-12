@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Brasil na linha
+    url: https://github.com/BrasilNaLinha
+    about: Please ask and answer questions here.
+  - name: lineuxyz
+    url: https://github.com/lineuxyz
+    about: Please report security vulnerabilities here.
