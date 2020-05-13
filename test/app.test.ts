@@ -1,8 +1,7 @@
 import { expect } from 'chai';
 
 describe('routes tests', () => {
-    
-    it('hello world test', () => {
-        expect(true).to.be.true;
-    });
+  it('hello world test', () => {
+    expect(true).to.be.true;
+  });
 });
