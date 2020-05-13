@@ -5,8 +5,6 @@
   },
   "extends": [
     "airbnb-base",
-    "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
   "globals": {
@@ -35,7 +33,8 @@
       {
         "ts": "never"
       }
-    ]
+    ],
+    "no-console": "off"
   },
   "settings": {
     "import/resolver": {

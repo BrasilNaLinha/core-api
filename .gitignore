@@ -111,3 +111,4 @@ credentials/
 
 # Dependencies
 package-lock.json
+yarn.lock
